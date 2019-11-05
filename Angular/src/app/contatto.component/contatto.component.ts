@@ -8,7 +8,7 @@ import {Contatto} from './contatto.model.ts';
 })
 
 export class ContattoComponent {
-  contatto: Contatto = new Contatto('Daniel', 'Tranquillini', 'daniel.tranquillini@marconirovereto.it', '1234567890', 5);
+  contatto: Contatto = new Contatto('Giacomo', 'Tosin', 'giacomotosin@example.org', '9876543210', 5);
 
 
 }
