@@ -10,5 +10,8 @@ import {Contatto} from './contatto.model.ts';
 export class ContattoComponent {
   contatto: Contatto = new Contatto('Giacomo', 'Tosin', 'giacomotosin@example.org', '9876543210', 5);
 
+  settextColor(){
+    return this.contatto.isPreferito()? "red": "black";
+  }
 
 }
