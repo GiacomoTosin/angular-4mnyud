@@ -16,4 +16,10 @@ export class Contatto{
   getNomeCompleto():string{
     return this.nome + " " + this.cognome;
   }
+  isPreferito(){
+    return this.nrStelle == 5;
+  }
+  setPrefetito(){
+    this.nrStelle = 5;
+  }
 }
